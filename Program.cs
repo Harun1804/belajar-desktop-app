@@ -4,12 +4,12 @@
     {
         static void Main() 
         {
-            Hello();
+            Hello("Aegis");
         }
 
-        static void Hello() 
+        static void Hello(string name) 
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello {0}", name);
         }
     }
 }

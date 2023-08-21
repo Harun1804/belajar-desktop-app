@@ -1,13 +1,4 @@
-﻿namespace Belajar 
-{
-    class Program
-    {
-        static void Main() 
-        {
-            int num1 = 6;
-            Console.WriteLine(num1);
-
-            Console.ReadLine();
-        }
-    }
-}
+﻿Console.Write("Enter your name: ");
+string name = Console.ReadLine();
+Console.WriteLine("Hello, {0}", name);
+Console.ReadLine();

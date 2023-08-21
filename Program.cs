@@ -2,10 +2,10 @@
 {
     class Program
     {
-        static void Main(string[] args) 
+        static void Main() 
         {
-            string phrase = "Racoon academy";
-            Console.WriteLine(phrase.Substring(8, 2));
+            int num1 = 6;
+            Console.WriteLine(num1);
 
             Console.ReadLine();
         }

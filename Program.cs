@@ -4,13 +4,12 @@
     {
         static void Main() 
         {
-            Console.WriteLine(Cube(5));
-        }
+            bool isHandsome = true;
 
-        static int Cube(int num) 
-        {
-            int result = num * num * num;
-            return result;
+            if (isHandsome)
+            {
+                Console.WriteLine("Yes, You are handsome");
+            }
         }
     }
 }

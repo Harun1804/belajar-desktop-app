@@ -4,12 +4,13 @@
     {
         static void Main() 
         {
-            Hello("Aegis");
+            Console.WriteLine(Cube(5));
         }
 
-        static void Hello(string name) 
+        static int Cube(int num) 
         {
-            Console.WriteLine("Hello {0}", name);
+            int result = num * num * num;
+            return result;
         }
     }
 }
